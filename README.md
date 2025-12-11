@@ -2,16 +2,13 @@
   <img src="assets/banner.png" alt="ISL Translator Banner" width="800">
 </p>
 
-<p align="center">
-  <a href="https://github.com/farihaNaqvi/MediaPipe-ISL-Virtual-Interpreter/stargazers">
-    <img src="https://img.shields.io/github/stars/farihaNaqvi/MediaPipe-ISL-Virtual-Interpreter?style=for-the-badge&color=ffac30" />
-  </a>
-  <a href="https://github.com/farihaNaqvi/MediaPipe-ISL-Virtual-Interpreter/network/members">
-    <img src="https://img.shields.io/github/forks/farihaNaqvi/MediaPipe-ISL-Virtual-Interpreter?style=for-the-badge&color=80b3ff" />
-  </a>
-  <img src="https://img.shields.io/badge/Python-3.10%20%7C%203.11-blue?style=for-the-badge" />
-  <a href="https://github.com/farihaNaqvi/MediaPipe-ISL-Virtual-Interpreter/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/farihaNaqvi/MediaPipe-ISL-Virtual-Interpreter?style=for-the-badge&color=25c276" />
+<p align="center">  
+  <!-- Python Version -->
+  <img src="https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12-blue?style=for-the-badge" alt="Python Version" />
+  
+  <!-- IEEE Paper -->
+  <a href="https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=MediaPipe-ISL-Virtual-Interpreter">
+    <img src="https://img.shields.io/badge/IEEE%20Paper-View%20Publication-red?style=for-the-badge" alt="IEEE Paper"/>
   </a>
 </p>
 
