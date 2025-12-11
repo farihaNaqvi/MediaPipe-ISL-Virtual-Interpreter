@@ -205,3 +205,23 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ----------------------------------
+# MACHINE LEARNING AND DATA EXCLUSIONS (Added for IEEE Research Project)
+# ----------------------------------
+/data/
+/datasets/
+*.pkl
+*.joblib
+*.h5          # TensorFlow/Keras Models
+*.pth         # PyTorch Checkpoints
+*.pt          # PyTorch Scripted Models
+*.onnx        # ONNX Models
+
+# ----------------------------------
+# SECURITY AND CREDENTIALS (Crucial)
+# ----------------------------------
+secrets.py
+config_local.py
+*.key
+*.pem
