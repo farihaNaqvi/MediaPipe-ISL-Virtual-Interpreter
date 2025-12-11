@@ -2,7 +2,14 @@
   <img src="assets/banner.png" alt="ISL Translator Banner" width="800">
 </p>
 
+
+
 <p align="center">  
+
+  <!-- Latest Release -->
+<img src="https://img.shields.io/github/v/release/farihaNaqvi/MediaPipe-ISL-Virtual-Interpreter?style=for-the-badge" alt="Latest Release" />
+
+
   <!-- Python Version -->
   <img src="https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12-blue?style=for-the-badge" alt="Python Version" />
   
