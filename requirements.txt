@@ -1,0 +1,16 @@
+# Core scientific libraries for data handling and CV
+numpy
+imageio
+
+# For UI elements (tkinter is usually built-in, but listed for completeness)
+# tkinter
+
+# For Google Translate functionality
+googletrans
+
+# For MediaPipe and Computer Vision
+opencv-python
+mediapipe
+
+# For Machine Learning model development
+tensorflow
