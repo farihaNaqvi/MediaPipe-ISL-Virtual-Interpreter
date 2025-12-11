@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12-blue?style=for-the-badge" alt="Python Version" />
   
   <!-- IEEE Paper -->
-  <a href="https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=MediaPipe-ISL-Virtual-Interpreter">
+  <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10270341&isnumber=10269805">
     <img src="https://img.shields.io/badge/IEEE%20Paper-View%20Publication-red?style=for-the-badge" alt="IEEE Paper"/>
   </a>
 </p>
