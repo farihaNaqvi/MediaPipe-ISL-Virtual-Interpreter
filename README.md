@@ -7,7 +7,7 @@
 <p align="center">  
 
   <!-- Latest Release -->
-<img src="https://img.shields.io/github/v/release/farihaNaqvi/MediaPipe-ISL-Virtual-Interpreter?style=for-the-badge" alt="Latest Release" />
+  <img src="https://img.shields.io/github/v/tag/farihaNaqvi/MediaPipe-ISL-Virtual-Interpreter?label=Release&style=for-the-badge&sort=semver" alt="Latest Release Tag" />
 
 
   <!-- Python Version -->
