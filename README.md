@@ -64,26 +64,44 @@ This codebase directly supports the findings presented in our peer-reviewed IEEE
 
 ---
 
-## ⚙️ Installation and Setup
+## ⚙️ Installation & Setup
+
+Follow these steps to configure your local environment and initialize the interpreter.
 
 ### 1. Clone the Repository
-```bash
-git clone https://github.com/farihaNaqvi/MediaPipe-ISL-Virtual-Interpreter.git
+Open your terminal or PowerShell and execute the following:
 
-cd MediaPipe-ISL-Virtual-Interpreter
+    git clone https://github.com/farihaNaqvi/MediaPipe-ISL-Virtual-Interpreter.git
 
-2. Create and Activate Virtual Environment (Recommended)This isolates the project's dependencies. We recommend Python 3.10 or 3.11 for maximum compatibility.Bashpython -m venv venv
+### 2. Enter the Project Directory
 
-# Windows (PowerShell):
-.\venv\Scripts\activate
+    cd MediaPipe-ISL-Virtual-Interpreter
 
-# macOS/Linux:
-source venv/bin/activate
+### 3. Environment Configuration
+We recommend using Python 3.10 or 3.11 to ensure compatibility with TensorFlow and MediaPipe.
 
-3. Install DependenciesInstall all required libraries, including TensorFlow, MediaPipe, and OpenCV:pip install -r requirements.txt
+#### Windows (PowerShell)
 
-▶️ UsageRunning the TranslatorEnsure your webcam is connected and the virtual environment is active.python run_translator.py
+    python -m venv venv
+    .\venv\Scripts\activate
 
-(Replace run_translator.py with your file name if different.)The system will initialize the camera, detect hand landmarks, and display the real-time predicted ISL word/action.
+#### macOS / Linux
+
+    python3 -m venv venv
+    source venv/bin/activate
+
+### 4. Install Required Dependencies
+With the virtual environment active, install the project's core libraries:
+
+    pip install --upgrade pip
+    pip install -r requirements.txt
+
+### System Capabilities
+
+* **Real-time Detection:** The system initializes the camera feed and maps 21 hand landmarks instantly.
+
+* **Gesture Translation:** High-fidelity mapping of Indian Sign Language (ISL) gestures to English/Hindi text.
+
+* **Feedback Loop:** Real-time visual feedback on the screen showing the predicted word and the confidence score.
 
 LICENSE The Apache License 2.0.
